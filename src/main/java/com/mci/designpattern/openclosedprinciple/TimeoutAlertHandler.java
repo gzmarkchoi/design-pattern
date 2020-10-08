@@ -1,6 +1,12 @@
 package com.mci.designpattern.openclosedprinciple;
 
-public class TimeoutAlertHandler {
+/**
+ * Added for ApplicationContextVersionTwo
+ * 
+ * @author Gzmar
+ *
+ */
+public class TimeoutAlertHandler extends AlertHandler {
     public TimeoutAlertHandler(AlertRule rule, Notification notification){
         super(rule, notification);
     }
