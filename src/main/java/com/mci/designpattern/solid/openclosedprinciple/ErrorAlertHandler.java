@@ -1,13 +1,7 @@
-package com.mci.designpattern.openclosedprinciple;
+package com.mci.designpattern.solid.openclosedprinciple;
 
-/**
- * Added for ApplicationContextVersionTwo
- * 
- * @author Gzmar
- *
- */
-public class TimeoutAlertHandler extends AlertHandler {
-    public TimeoutAlertHandler(AlertRule rule, Notification notification){
+public class ErrorAlertHandler extends AlertHandler {
+    public ErrorAlertHandler(AlertRule rule, Notification notification){
         super(rule, notification);
     }
 

@@ -1,4 +1,4 @@
-package com.mci.designpattern.openclosedprinciple;
+package com.mci.designpattern.solid.openclosedprinciple;
 
 import java.util.ArrayList;
 import java.util.List;

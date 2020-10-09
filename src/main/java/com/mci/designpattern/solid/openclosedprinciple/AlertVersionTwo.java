@@ -1,4 +1,4 @@
-package com.mci.designpattern.openclosedprinciple;
+package com.mci.designpattern.solid.openclosedprinciple;
 
 /**
     这样的代码修改实际上存在挺多问题的。

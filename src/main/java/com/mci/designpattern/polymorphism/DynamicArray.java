@@ -7,18 +7,23 @@ public class DynamicArray {
     protected int capacity = DEFAULT_CAPACITY;
     protected Integer[] elements = new Integer[DEFAULT_CAPACITY];
 
-    public int size() { return this.size; }
-    public Integer get(int index) { return elements[index];}
-    //...省略n多方法...
+	public int size() {
+		return this.size;
+	}
 
-    public void add(Integer e) {
-        ensureCapacity();
-        elements[size++] = e;
-    }
+	public Integer get(int index) {
+		return elements[index];
+	}
+	// ...省略n多方法...
 
-    protected void ensureCapacity() {
-        //...如果数组满了就扩容...代码省略...
-    }
+	public void add(Integer e) {
+		ensureCapacity();
+		elements[size++] = e;
+	}
+
+	protected void ensureCapacity() {
+		// ...如果数组满了就扩容...代码省略...
+	}
 }
 
 class SortedDynamicArray extends DynamicArray {
@@ -39,17 +44,17 @@ class SortedDynamicArray extends DynamicArray {
 }
 
 class Example {
-    public static void test(DynamicArray dynamicArray) {
-        dynamicArray.add(5);
-        dynamicArray.add(1);
-        dynamicArray.add(3);
-        for (int i = 0; i < dynamicArray.size(); ++i) {
-            System.out.println(dynamicArray.get(i));
-        }
-    }
+	public static void test(DynamicArray dynamicArray) {
+		dynamicArray.add(5);
+		dynamicArray.add(1);
+		dynamicArray.add(3);
+		for (int i = 0; i < dynamicArray.size(); ++i) {
+			System.out.println(dynamicArray.get(i));
+		}
+	}
 
-    public static void main(String args[]) {
-        DynamicArray dynamicArray = new SortedDynamicArray();
-        test(dynamicArray); // 打印结果：1、3、5
-    }
+	public static void main(String args[]) {
+		DynamicArray dynamicArray = new SortedDynamicArray();
+		test(dynamicArray); // 打印结果：1、3、5
+	}
 }

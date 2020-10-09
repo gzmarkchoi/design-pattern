@@ -1,4 +1,4 @@
-package com.mci.designpattern.openclosedprinciple;
+package com.mci.designpattern.solid.openclosedprinciple;
 
 /**
  ApplicationContext 是一个单例类，负责 Alert 的创建、组装（alertRule 和 notification 的依赖注入）、初始化（添加 handlers）工作。

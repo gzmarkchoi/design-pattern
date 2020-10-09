@@ -1,4 +1,4 @@
-package com.mci.designpattern.liskovsubstitutionprinciple;
+package com.mci.designpattern.solid.liskovsubstitutionprinciple;
 
 /**
  * 	Ref.Ch.17

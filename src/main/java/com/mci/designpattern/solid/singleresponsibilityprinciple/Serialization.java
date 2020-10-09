@@ -1,4 +1,4 @@
-package com.mci.designpattern.singleresponsibilityprinciple;
+package com.mci.designpattern.solid.singleresponsibilityprinciple;
 
 import java.util.Collections;
 import java.util.Map;

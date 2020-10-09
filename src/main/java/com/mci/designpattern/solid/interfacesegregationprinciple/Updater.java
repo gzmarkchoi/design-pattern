@@ -1,4 +1,4 @@
-package com.mci.designpattern.interfacesegregationprinciple;
+package com.mci.designpattern.solid.interfacesegregationprinciple;
 
 import java.util.ArrayList;
 import java.util.HashMap;

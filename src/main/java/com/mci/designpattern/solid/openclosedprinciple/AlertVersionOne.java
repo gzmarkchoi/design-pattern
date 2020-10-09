@@ -1,4 +1,4 @@
-package com.mci.designpattern.openclosedprinciple;
+package com.mci.designpattern.solid.openclosedprinciple;
 
 public class AlertVersionOne {
     private AlertRule rule;
