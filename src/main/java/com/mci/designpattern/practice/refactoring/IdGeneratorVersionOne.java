@@ -73,4 +73,4 @@ public class RandomIdGenerator implements LogTraceIdGenerator {
 }
 
 //代码使用举例
-LogTraceIdGenerator logTraceIdGenerator = new RandomIdGenerator();
+//LogTraceIdGenerator logTraceIdGenerator = new RandomIdGenerator();
