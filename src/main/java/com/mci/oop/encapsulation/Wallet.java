@@ -1,4 +1,4 @@
-package com.mci.designpattern.encapsulation;
+package com.mci.oop.encapsulation;
 
 
 import org.springframework.util.IdGenerator;
@@ -6,7 +6,7 @@ import org.springframework.util.IdGenerator;
 import java.math.BigDecimal;
 
 /*
-    ref -> Ch.05 for more detailed notes
+    Ref. Ch.05 for more detailed notes
  */
 public class Wallet {
     private String id;

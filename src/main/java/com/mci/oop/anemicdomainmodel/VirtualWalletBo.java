@@ -1,4 +1,4 @@
-package com.mci.designpattern.anemicdomainmodel;
+package com.mci.oop.anemicdomainmodel;
 
 import java.math.BigDecimal;
 

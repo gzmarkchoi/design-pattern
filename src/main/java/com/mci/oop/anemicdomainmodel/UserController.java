@@ -1,4 +1,4 @@
-package com.mci.designpattern.anemicdomainmodel;
+package com.mci.oop.anemicdomainmodel;
 
 /**
     A typical Anemic Domain Model example

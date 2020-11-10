@@ -1,4 +1,4 @@
-package com.mci.designpattern.polymorphism;
+package com.mci.oop.polymorphism;
 
 
 public class DynamicArray {
